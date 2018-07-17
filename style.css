@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Quicksand');
+
+* {
+	top: 0;
+	line-height: 1.8;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 600;	
+}
+
+h2 {
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;	
+}
+
+.container-fluid {
+	background: url('./img/dark.jpeg');
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.half_transparent {
+	opacity:0.8;
+}
+
+.headrsection {
+	background: url('./img/dark.jpeg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-bottom: 5px solid black;
+       	
+}
+.z-index-0 {
+	z-index:-1;
+}
+
+.pos-absolute {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.content {
+	line-height:35px;
+	color:black;
+	font-size: 25px;
+}
+.content i{
+	color:black;
+}
+
+.scrolled nav {
+    background-color:#F7F7F7; 
+}
+
+#collapse_target a:hover{
+	color:#919191;
+}
+
+.develop{
+    -webkit-animation:mymove 10s infinite;
+}
+
+@keyframes mymove {
+    50% {
+    	transform:rotate3d(0,1,0, 250deg);
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.9);
+    padding:12px;
+    font-size:18px;
+    font-weight:400;
+}
+
+.nav-item {
+    margin-left:0.6rem;
+    font-family:'Montserrat', sans-serif;
+
+}
+
+.project-title {
+	font-family:'Quicksand', sans-serif;
+	font-size: 1rem;
+
+
+}
+
+.aboutme-section {
+	border-bottom:5px solid black;	
+
+}
+
+.resume-section {
+	border-top:5px solid black;	
+}
+
+.contact-section {
+	background-image:linear-gradient(260deg, #fff 0%, #FFD671 100%);
+	height:27rem;
+	
+}
+.project-item {
+	border:0.5px solid grey;
+}
+
+.img-fluid {
+	width:50vh;		
+	height:35vh;
+	display:inline-block; 
+    vertical-align: middle;
+    -webkit-transform:perspective(1px) translateZ(0); 
+    transform:perspective(1px) translateZ(0); 
+    -webkit-transition-duration:0.3s; 
+    transition-duration:0.3s; 
+    -webkit-transition-property:transform; 
+    transition-property:transform; 	
+}
+
+.img-fluid:hover, .img-fluid:focus, .img-fluid:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  box-shadow: 0 2px 20px rgba(232,231,233,.45),0 2px 20px rgba(0,0,0,.45);
+}
+
+.aboutme img {
+	width:80%;
+	height:auto;
+	border-radius:50%;		
+}
+
+div i {
+	font-size: 4rem;
+	color:black;
+}
+
+/*.list-unstyled {
+	margin:0 auto;
+}*/
+
+.contact-name {
+	font-size:2rem;
+}
+
+.mail {
+	font-size:1.5rem;
+}
+
+li {
+	font-size:1.5rem;
+}
+
+.icon i {
+	font-size:2.5rem;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aos": "^2.3.2",
+    "bootstrap": "^4.0.0",
+    "jquery.js": "0.0.2-security",
+    "popper.js": "^1.12.9",
+    "webpack": "^3.10.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "start": "./node_moduls/.bin/webpack",
+    "watch": "./node_modules/.bin/webpack --watch",
+    "clean": "rm -rf ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meralle/My-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meralle/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Meralle/My-Portfolio#readme"
+}
