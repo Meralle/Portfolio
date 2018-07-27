@@ -20,8 +20,12 @@ h1 {
 }
 
 h2 {
-	font-size: 2.5rem;
-	font-weight: 500;
+	font-size: 2rem;
+	font-weight: 600;
+}
+h4{
+	font-size: 2rem;
+
 }
 
 p {
@@ -118,8 +122,8 @@ p {
 }
 
 .contact-section {
-	background-image:linear-gradient(260deg, #fff 0%, #FFD671 100%);
-	height:27rem;
+	background-image:linear-gradient(260deg, #fff 0%, #FFDE93 100%);
+	height:26rem;
 
 	
 }
@@ -177,9 +181,3 @@ li {
 	font-size:2.5rem;
 }
 
-.number { 
-  margin-right: 1.2rem;
-  margin-bottom: 5px;
-  font-size: 1em;
-  padding:  0;
-}
