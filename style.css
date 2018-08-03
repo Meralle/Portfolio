@@ -102,19 +102,16 @@ p {
 .nav-item {
     margin-left:0.6rem;
     font-family:'Montserrat', sans-serif;
-
-}
+} 
 
 .project-title {
 	font-family:'Quicksand', sans-serif;
 	font-size: 1rem;
-
-
+	margin-top: 0.5rem;
 }
 
 .aboutme-section {
 	border-bottom:5px solid black;	
-
 }
 
 .resume-section {
@@ -123,25 +120,16 @@ p {
 
 .contact-section {
 	background-image:linear-gradient(260deg, #fff 0%, #FFF293 100%);
-	height:26rem;
-
-	
+	height:26rem;	
 }
+
 .project-item {
-	border:0.5px solid grey;
+	border:1px solid grey;
 }
 
 .img-fluid {
-	width:50vh;		
-	height:35vh;
-	display:inline-block; 
-    vertical-align: middle;
-    -webkit-transform:perspective(1px) translateZ(0); 
-    transform:perspective(1px) translateZ(0); 
-    -webkit-transition-duration:0.3s; 
-    transition-duration:0.3s; 
-    -webkit-transition-property:transform; 
-    transition-property:transform; 	
+	width:100%;		
+	height:auto;		
 }
 
 .img-fluid:hover, .img-fluid:focus, .img-fluid:active {
@@ -160,10 +148,6 @@ div i {
 	font-size: 4rem;
 	color:black;
 }
-
-/*.list-unstyled {
-	margin:0 auto;
-}*/
 
 .contact-name {
 	font-size:2rem;
